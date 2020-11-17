@@ -4,7 +4,8 @@
 class HelloWorld < Formula
   desc "Hello World in Golang"
   homepage "https://github.com/whitehatsec-innovations/hello-world"
-  url "https://github.com/whitehatsec-innovations/hello-world/blob/master/hello-world-darwin.tar.bz2"
+  #url "https://github.com/whitehatsec-innovations/hello-world/blob/master/hello-world-darwin.tar.bz2"
+  url "https://github.com/whitehatsec-innovations/hello-world/blob/master/hello-world-darwin.tar.gz"
   version "1.0"
   sha256 "b41e83238d085e83b44dd7922fe3e89e107fbb96c402aca312aeda14945094a8"
   license "https://github.com/whitehatsec-innovations/hello-world/blob/master/License.md"
