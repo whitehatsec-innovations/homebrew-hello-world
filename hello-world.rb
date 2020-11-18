@@ -11,7 +11,8 @@ class HelloWorld < Formula
   version "1.0"
   #sha256 "b41e83238d085e83b44dd7922fe3e89e107fbb96c402aca312aeda14945094a8"
   #sha256 "13d2a4b7867d5f2ee6eb3f7d653cec8f7f2a3a79bd823644192f7580870014cc"
-  sha256 "770deb00dda6457eda16e020fd084cf3bf92bc0fe7f91a0e6af28eb5b6b6b120"
+  #sha256 "770deb00dda6457eda16e020fd084cf3bf92bc0fe7f91a0e6af28eb5b6b6b120"
+  sha245 ""
   license "https://github.com/whitehatsec-innovations/hello-world/blob/master/License.md"
 
   # depends_on "cmake" => :build
