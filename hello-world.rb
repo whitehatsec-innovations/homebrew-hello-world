@@ -9,7 +9,7 @@ class HelloWorld < Formula
   #url "https://github.com/whitehatsec-innovations/hello-world/blob/master/hello-world-darwin.tar.gz"
   url "https://github.com/whitehatsec-innovations/hello-world/blob/master/hello-world-darwin.tar"
   version "1.0"
-  sha256 "2206819c7a7b26e6baa8b208750db4d63ee29762d050fa2dc83e6d6ff4710daf"
+  sha256 "9edeb30d32347a0d5b5c5ca8860829ed4085eaac78e82f2ccae1492827db606b"
   license "https://github.com/whitehatsec-innovations/hello-world/blob/master/License.md"
 
   # depends_on "cmake" => :build
