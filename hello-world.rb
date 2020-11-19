@@ -5,9 +5,9 @@ class HelloWorld < Formula
   desc "Hello World in Golang"
   homepage "https://github.com/whitehatsec-innovations/hello-world"
   # tar: Error opening archive: Unrecognized archive format
-  #url "https://github.com/whitehatsec-innovations/hello-world/blob/master/hello-world-darwin.tar.bz2"
-  #url "https://github.com/whitehatsec-innovations/hello-world/blob/master/hello-world-darwin.tar.gz"
-  url "https://github.com/whitehatsec-innovations/hello-world/blob/master/hello-world-darwin.tar"
+  #url "https://github.com/whitehatsec-innovations/hello-world/raw/master/hello-world-darwin.tar.bz2"
+  #url "https://github.com/whitehatsec-innovations/hello-world/raw/master/hello-world-darwin.tar.gz"
+  url "https://github.com/whitehatsec-innovations/hello-world/raw/master/hello-world-darwin.tar"
   version "1.0"
   sha256 "9edeb30d32347a0d5b5c5ca8860829ed4085eaac78e82f2ccae1492827db606b"
   license "https://github.com/whitehatsec-innovations/hello-world/blob/master/License.md"
