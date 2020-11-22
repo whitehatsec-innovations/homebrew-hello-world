@@ -17,11 +17,12 @@ class HelloWorld < Formula
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
     # Remove unrecognized options if warned by configure
-    system "./configure", "--disable-debug",
-                          "--disable-dependency-tracking",
-                          "--disable-silent-rules",
-                          "--prefix=#{prefix}"
-    # system "cmake", ".", *std_cmake_args
+    #system "./configure", "--disable-debug",
+    #                      "--disable-dependency-tracking",
+    #                      "--disable-silent-rules",
+    #                      "--prefix=#{prefix}"
+    #system "cmake", ".", *std_cmake_args
+    bin.install "hello-world"
   end
 
   test do
