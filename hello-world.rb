@@ -9,7 +9,8 @@ class HelloWorld < Formula
   #url "https://github.com/whitehatsec-innovations/hello-world/raw/master/hello-world-darwin.tar"
   sha256 "9edeb30d32347a0d5b5c5ca8860829ed4085eaac78e82f2ccae1492827db606b"
   url "https://github.com/whitehatsec-innovations/hello-world/raw/master/hello-world-darwin.tar.bz2"
-  sha256 "f0e290c5fb655ccd4a19c7418243dce763747790b825cdd0939b98ed098b3601"
+  #sha256 "f0e290c5fb655ccd4a19c7418243dce763747790b825cdd0939b98ed098b3601"
+  sha256 "5280957d21c862071a0a0e04673ebc0ae7bf3cf252c96c74e7c909f6478d6e1a"
   version "1.0"
   license "https://github.com/whitehatsec-innovations/hello-world/blob/master/License.md"
 
