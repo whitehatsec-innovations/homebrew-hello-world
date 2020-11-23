@@ -34,7 +34,7 @@ class HelloWorld < Formula
     #                      "--without-libpsl"
     #system "make", "install"
 
-    prefix.install Dir[reports/*, browser/*], test-config.txt
+    prefix.install Dir[reports/*], Dir[browser/*], test-config.txt
     bin.install "hello-world"
   end
 
