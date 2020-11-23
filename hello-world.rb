@@ -19,11 +19,22 @@ class HelloWorld < Formula
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
     # Remove unrecognized options if warned by configure
-    #system "./configure", "--disable-debug",
-    #                      "--disable-dependency-tracking",
-    #                      "--disable-silent-rules",
-    #                      "--prefix=#{prefix}"
+    # system "./configure", "--disable-debug",
+    #                       "--disable-dependency-tracking",
+    #                       "--disable-silent-rules",
+    #                       "--prefix=#{prefix}"
     #system "cmake", ".", *std_cmake_args
+    #system "make", "install"
+
+    #system "./configure", "--prefix=#{prefix}",
+    #                      "--sysconfdir=#{etc}",
+    #                      "--disable-debug",
+    #                      "--disable-pcre",
+    #                      "--disable-pcre2",
+    #                      "--without-libpsl"
+    #system "make", "install"
+
+    prefix.install Dir[reports/*, browser/*], test-config.txt
     bin.install "hello-world"
   end
 
